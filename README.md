@@ -52,7 +52,7 @@ cp <screenshot directory>/screenshotXXX.png ./<your student id>.png
 12. Commit your change
 
   ```
-git add screenshotXXX.png
+git add <your student id>.png
 git commit -m "add my awesome screenshot"
 ```
 13. Push your change to github
