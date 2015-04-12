@@ -13,6 +13,7 @@ wget https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -O - | sudo 
 sudo apt-get update
 sudo apt-get install ros-hydro-euslisp
 echo "source /opt/ros/hydro/setup.bash" >> ~/.bashrc
+source ~/.bashrc
 rosrun euslisp irteusgl
 ```
   - for Ubuntu 12.10 and above
@@ -22,6 +23,7 @@ wget https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -O - | sudo 
 sudo apt-get update
 sudo apt-get install ros-indigo-euslisp
 echo "source /opt/ros/indigo/setup.bash" >> ~/.bashrc
+source ~/.bashrc
 rosrun euslisp irteusgl
 ```
 6. Execute on `irteusgl` below:
