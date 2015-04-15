@@ -11,7 +11,7 @@ homeworks for agent system
 sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu precise main" > /etc/apt/sources.list.d/ros-latest.list'
 wget https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -O - | sudo apt-key add -
 sudo apt-get update
-sudo apt-get install ros-hydro-euslisp
+sudo apt-get install ros-hydro-jskeus ros-hydro-ros-base
 echo "source /opt/ros/hydro/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 rosrun euslisp irteusgl
