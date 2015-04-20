@@ -8,7 +8,7 @@ homeworks for agent system
 4. Setup ROS / Euslisp on your PC
   - for Ubuntu 12.04
   ```
-sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu precise main" > /etc/apt/sources.list.d/ros-latest.list'
+sudo sh -c 'echo "deb http://packages.ros.org/ros-shadow-fixed/ubuntu precise main" > /etc/apt/sources.list.d/ros-latest.list'
 wget https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -O - | sudo apt-key add -
 sudo apt-get update
 sudo apt-get install ros-hydro-roseus
@@ -19,7 +19,7 @@ rosrun euslisp irteusgl
 ```
   - for Ubuntu 12.10 and above
   ```
-sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu `lsb_release -cs` main" > /etc/apt/sources.list.d/ros-latest.list'
+sudo sh -c 'echo "deb http://packages.ros.org/ros-shadow-fixed/ubuntu `lsb_release -cs` main" > /etc/apt/sources.list.d/ros-latest.list'
 wget https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -O - | sudo apt-key add -
 sudo apt-get update
 sudo apt-get install ros-indigo-roseus
